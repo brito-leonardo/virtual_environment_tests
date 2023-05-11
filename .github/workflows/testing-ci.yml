@@ -19,8 +19,8 @@ jobs:
     - name: Lint with pylint
       run: | 
         male lint
-    - name: test with pytest
+    - name: Test with pytest
       run: |
     - name: Format code  
       run: |
-        male format
+        make format
